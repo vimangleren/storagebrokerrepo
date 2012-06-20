@@ -12,7 +12,7 @@ namespace WarmPenguin.StorageBroker
 {
 	internal static class DataFeed
 	{
-		const string baseServiceUrl = "http://localhost/penguindata.svc/"; //"http://winelli.azurewebsites.net/penguindata.svc/"; 
+		const string baseServiceUrl = "http://winelli.azurewebsites.net/penguindata.svc/"; //"http://localhost/penguindata.svc/";
 
 		public static XNamespace xa = "http://www.w3.org/2005/Atom";
 		public static XNamespace xd = "http://schemas.microsoft.com/ado/2007/08/dataservices";
